@@ -63,8 +63,8 @@
         lsf, NK,  NK,  NK,  NK,  NK,  NK,  rsf, \
         rht, ent, NK,  up,  bsl, bsl, bkp, NK,  \
         lct, NK,  NK,  NK,  NK,  NK,  NK,  rct, \
-        NK,  NK,  NK,  NK,  NK,  NK,  NK,  NK,  \
-        NK,  NK,  NK,  NK,  NK,  NK,  NK,  NK   \
+        NK,  NK,  NK,  NK,  NK,  NK,  NK,  NK,  \ //16
+        NK,  NK,  NK,  NK,  NK,  NK,  NK,  NK   \ //17
     }
 
 #define KEYMAP_ISO( \

@@ -1,0 +1,55 @@
+Клавиши:
+    esc, f1, f2, f3, f4, f5, f6, f7, f8, f9, f10, f11, f12,          \
+    grv,  n1, n2, n3, n4, n5, n6, n7, n8, n9, n0, min, eql, bkp,     \
+    tab,   q,  w,  e,  r,  t,  y,  u,  i,  o,  p,  lbr, rbr, bsl,    \
+    cap,    a,  s,  d,  f,  g,  h,  j,  k,  l,  sem, quo, ent,       \
+    lsf,     z,  x,  c,  v,  b,  n,  m, com, dot, sls, rsf, up,      \
+    lct, fn, pi, lal,         spc,           ral, rct, lef, dn, rht) \
+
+Соответствующие им номера ячейки в матрице клавиш:
+110 112 113 114 115 116 117 118 119 120 121 122 123 126 075 076
+1 2 ? 4 5 6 7 8 9 10 11 12 13 15
+16 17 18 19 20 21 22 23 24 25 26 27 28 29
+30 31 32 33 34 35 36 37 38 39 40 41 43
+44 48 47 43 49 50 51 52 53 54 55 57
+58 59 127 60 61 62 64 79 83 84 88
+
+Матрица клавиш:
+   C0 C1 C2 C3 C4 C5 C6 C7 C8 C9 C10 C11 C12 C13 C14 C15
+R7 125 30 112 . 50 119 99 105 51 92 13 123 . 62 126 76
+R6 100 110 115 127 35 118 45 106 36 97 41 122 . 14 15 75
+R5 58 16 114 . 21 117 28 104 22 102 27 121 108 131 90 80
+R4 . 1 113 . 6 116 42 59 7 93 12 120 129 . 29 85
+R3 64 31 33 . 34 32 38 91 37 98 40 39 . . 43 86
+R2 56 46 48 . 49 47 53 132 52 44 55 54 . 133 61 81
+R1 . 2 4 . 5 3 9 96 8 103 11 10 95 60 84 89
+R0 124 17 19 . 20 18 24 101 23 57 26 25 . . 83 79
+
+
+#define KEYMAP_ANSI( \
+    esc, f1, f2, f3, f4, f5, f6, f7, f8, f9, f10, f11, f12,          \
+    grv,  n1, n2, n3, n4, n5, n6, n7, n8, n9, n0, min, eql, bkp,     \
+    tab,   q,  w,  e,  r,  t,  y,  u,  i,  o,  p,  lbr, rbr, bsl,    \
+    cap,    a,  s,  d,  f,  g,  h,  j,  k,  l,  sem, quo, ent,       \
+    lsf,     z,  x,  c,  v,  b,  n,  m, com, dot, sls, rsf, up,      \
+    lct, fn, pi, lal,         spc,           ral, rct, lef, dn, rht) \
+    { \
+        NK,  NK,  NK,  NK,  NK,  NK,  NK,  pi,  \
+        ral, NK,  NK,  NK,  NK,  NK,  NK,  lal, \
+        NK,  NK,  c,   d,   f2,  f3,  fn,  NK,  \
+        NK,  c,   x,   d,   q,   tab, n1,  grv, \
+        NK,  n4,  v,   f,   n5,  t,   f1,  esc, \
+        w,   n2,  x,   s,   f5,  f6,  f3,  f2,  \
+        NK,  n8,  com, k,   n6,  rbr, f5,  f4,  \
+        NK,  k,   j,   i,   fn,  n9,  f7,  f6,  \
+        NK,  n7,  m,   j,   n6,  NK,  f9,  f8,  \
+        rsf, sem, lbr, NK,  min, NK,  f11, f10, \
+        p,   n0,  sls, NK,  NK,  lbr, NK,  f12, \
+        NK,  NK,  dot, l,   NK,  NK,  NK,  NK,  \
+        spc, sls, NK,  NK,  rbr, NK,  lef, NK,  \
+        lsf, NK,  NK,  NK,  NK,  NK,  NK,  rsf, \
+        rht, ent, NK,  up,  bsl, bsl, bkp, NK,  \
+        lct, NK,  NK,  NK,  NK,  NK,  NK,  rct, \
+        NK,  NK,  NK,  NK,  NK,  NK,  NK,  NK,  \ //16
+        NK,  NK,  NK,  NK,  NK,  NK,  NK,  NK   \ //17
+    }
