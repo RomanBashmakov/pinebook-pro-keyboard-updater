@@ -49,15 +49,15 @@
     { \
         NK,  NK,  NK,  NK,  NK,  NK,  NK,  pi,  \
         ral, NK,  NK,  NK,  NK,  NK,  NK,  lal, \
-        NK,  NK,  c,   d,   a,   s,   fn,  NK,  \
+        NK,  NK,  c,   d,   f2,  f3,  fn,  NK,  \
         NK,  c,   x,   d,   q,   tab, n1,  grv, \
         NK,  n4,  v,   f,   n5,  t,   f1,  esc, \
-        w,   n2,  x,   s,   f,   g,   f3,  f2,  \
-        NK,  n8,  com, p,   n6,  rbr, f5,  f4,  \
+        w,   n2,  x,   s,   f5,  f6,  f3,  f2,  \
+        NK,  n8,  com, k,   n6,  rbr, f5,  f4,  \
         NK,  k,   j,   i,   fn,  n9,  f7,  f6,  \
-        NK,  n7,  m,   j,   n0,  NK,  f9,  f8,  \
+        NK,  n7,  m,   j,   n6,  NK,  f9,  f8,  \
         rsf, sem, lbr, NK,  min, NK,  f11, f10, \
-        b,   n0,  sls, NK,  NK,  lbr, NK,  f12, \
+        p,   n0,  sls, NK,  NK,  lbr, NK,  f12, \
         NK,  NK,  dot, l,   NK,  NK,  NK,  NK,  \
         spc, sls, NK,  NK,  rbr, NK,  lef, NK,  \
         lsf, NK,  NK,  NK,  NK,  NK,  NK,  rsf, \
