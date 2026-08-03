@@ -47,24 +47,25 @@
     lsf,     z,  x,  c,  v,  b,  n,  m, com, dot, sls, rsf, up,      \
     lct, fn, pi, lal,         spc,           ral, rct, lef, dn, rht) \
     { \
-        NK,  NK,  NK,  NK,  NK,  NK,  NK,  pi,  \
-        ral, NK,  NK,  NK,  NK,  NK,  NK,  lal, \
-        NK,  NK,  c,   d,   f2,  f3,  fn,  NK,  \
-        NK,  c,   x,   d,   q,   tab, n1,  grv, \
-        NK,  n4,  v,   f,   n5,  t,   f1,  esc, \
-        w,   n2,  x,   s,   f5,  f6,  f3,  f2,  \
-        NK,  n8,  com, k,   n6,  rbr, f5,  f4,  \
-        NK,  k,   j,   i,   fn,  n9,  f7,  f6,  \
-        NK,  n7,  m,   j,   n6,  NK,  f9,  f8,  \
-        rsf, sem, lbr, NK,  min, NK,  f11, f10, \
-        p,   n0,  sls, NK,  NK,  lbr, NK,  f12, \
-        NK,  NK,  dot, l,   NK,  NK,  NK,  NK,  \
-        spc, sls, NK,  NK,  rbr, NK,  lef, NK,  \
-        lsf, NK,  NK,  NK,  NK,  NK,  NK,  rsf, \
-        rht, ent, NK,  up,  bsl, bsl, bkp, NK,  \
-        lct, NK,  NK,  NK,  NK,  NK,  NK,  rct, \
-        NK,  NK,  NK,  NK,  NK,  NK,  NK,  NK,  \ //16
-        NK,  NK,  NK,  NK,  NK,  NK,  NK,  NK   \ //17
+        /*       R0   R1   R2   R3   R4   R5   R6   R7 */ \
+        /*C0*/  NK,  NK,  NK,  spc, NK,  up,  NK,  NK,  \
+        /*C1*/  q,   n1,  z,   a,   grv, tab, esc, cap,  \
+        /*C2*/  e,   n2,  c,   d,   f2,  f3,  f4,  f1,   \
+        /*C3*/  NK,  NK,  NK,  NK,  NK,  NK,  NK,  NK,   \
+        /*C4*/  r,   n3,  v,   f,   n4,  t,   g,   b,    \
+        /*C5*/  w,   NK,  x,   s,   f5,  f6,  f7,  f8,   \
+        /*C6*/  i,   n7,  com, k,   NK,  rbr, NK,  NK,   \
+        /*C7*/  NK,  NK,  NK,  NK,  lct, NK,  NK,  NK,   \
+        /*C8*/  u,   n6,  m,   j,   n5,  y,   h,   n,    \
+        /*C9*/  rsf, NK,  lsf, NK,  NK,  NK,  NK,  NK,   \
+        /*C10*/ p,   n9,  sls, sem, n0,  lbr, quo, min,  \
+        /*C11*/ o,   n8,  dot, l,   f9,  f10, f11, f12,  \
+        /*C12*/ NK,  NK,  NK,  NK,  NK,  NK,  NK,  NK,   \
+        /*C13*/ NK,  fn,  NK,  NK,  NK,  NK,  NK,  lal,  \
+        /*C14*/ rht, NK,  pi,  ent, bsl, NK,  eql, bkp,  \
+        /*C15*/ rct, NK,  dn,  NK,  NK,  lef, ral, NK,   \
+        /*C16*/ NK,  NK,  NK,  NK,  NK,  NK,  NK,  NK,   \
+        /*C17*/ NK,  NK,  NK,  NK,  NK,  NK,  NK,  NK    \
     }
 
 #define KEYMAP_ISO( \
