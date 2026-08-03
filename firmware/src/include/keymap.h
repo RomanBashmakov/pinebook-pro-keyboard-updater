@@ -51,8 +51,8 @@
         ral, NK,  NK,  NK,  NK,  NK,  NK,  lal, \
         NK,  NK,  z,   cap, a,   s,   fn,  NK,  \
         NK,  c,   x,   d,   q,   tab, n1,  grv, \
-        NK,  f,   e,   w,   n2,  n3,  f1,  esc, \
-        v,   g,   t,   r,   n4,  n5,  f3,  f2,  \
+        NK,  f,   e,   w,   n5,  n3,  f1,  esc, \
+        v,   n2,  t,   r,   n4,  g,   f3,  f2,  \
         NK,  h,   u,   y,   n6,  n7,  f5,  f4,  \
         NK,  k,   j,   i,   n8,  n9,  f7,  f6,  \
         NK,  l,   p,   o,   n0,  NK,  f9,  f8,  \
