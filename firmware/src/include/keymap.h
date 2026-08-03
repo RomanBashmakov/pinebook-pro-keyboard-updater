@@ -49,19 +49,19 @@
     { \
         NK,  NK,  NK,  NK,  NK,  NK,  NK,  pi,  \
         ral, NK,  NK,  NK,  NK,  NK,  NK,  lal, \
-        NK,  NK,  z,   cap, a,   s,   fn,  NK,  \
+        NK,  NK,  c,   d,   a,   s,   fn,  NK,  \
         NK,  c,   x,   d,   q,   tab, n1,  grv, \
-        NK,  n4,  e,   w,   n5,  n3,  f1,  esc, \
-        v,   n2,  t,   r,   f,   g,   f3,  f2,  \
-        NK,  h,   u,   y,   n6,  n7,  f5,  f4,  \
-        NK,  k,   j,   i,   n8,  n9,  f7,  f6,  \
-        NK,  l,   p,   o,   n0,  NK,  f9,  f8,  \
-        m,   sem, lbr, NK,  min, NK,  f11, f10, \
-        b,   com, quo, NK,  NK,  eql, NK,  f12, \
-        NK,  NK,  n,   dot, NK,  NK,  NK,  NK,  \
+        NK,  n4,  v,   f,   n5,  t,   f1,  esc, \
+        w,   n2,  x,   s,   f,   g,   f3,  f2,  \
+        NK,  n8,  com, p,   n6,  rbr, f5,  f4,  \
+        NK,  k,   j,   i,   fn,  n9,  f7,  f6,  \
+        NK,  n7,  m,   j,   n0,  NK,  f9,  f8,  \
+        rsf, sem, lbr, NK,  min, NK,  f11, f10, \
+        b,   n0,  sls, NK,  NK,  lbr, NK,  f12, \
+        NK,  NK,  dot, l,   NK,  NK,  NK,  NK,  \
         spc, sls, NK,  NK,  rbr, NK,  lef, NK,  \
         lsf, NK,  NK,  NK,  NK,  NK,  NK,  rsf, \
-        rht, dn,  NK,  up,  ent, bsl, bkp, NK,  \
+        rht, ent, NK,  up,  bsl, bsl, bkp, NK,  \
         lct, NK,  NK,  NK,  NK,  NK,  NK,  rct, \
         NK,  NK,  NK,  NK,  NK,  NK,  NK,  NK,  \
         NK,  NK,  NK,  NK,  NK,  NK,  NK,  NK   \
