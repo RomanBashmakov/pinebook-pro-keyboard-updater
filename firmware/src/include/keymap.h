@@ -48,22 +48,22 @@
     lct, fn, pi, lal,         spc,           ral, rct, lef, dn, rht) \
     { \
         /*       R0   R1   R2   R3   R4   R5   R6   R7 */ \
-        /*C0*/  NK,  NK,  NK,  spc, NK,  up,  NK,  NK,  \
+        /*C0*/  NK,  NK,  NK,  rct, NK,  lct, NK,  NK,  \
         /*C1*/  q,   n1,  z,   a,   grv, tab, esc, cap,  \
         /*C2*/  e,   n3,  c,   d,   f2,  f3,  f4,  f1,   \
-        /*C3*/  NK,  NK,  NK,  NK,  NK,  NK,  NK,  NK,   \
+        /*C3*/  NK,  NK,  NK,  NK,  NK,  NK,  pi,  NK,   \
         /*C4*/  r,   n4,  v,   f,   n5,  t,   g,   b,    \
         /*C5*/  w,   n2,  x,   s,   f5,  f6,  f7,  f8,   \
         /*C6*/  i,   n8,  com, k,   NK,  rbr, NK,  NK,   \
-        /*C7*/  NK,  NK,  NK,  NK,  lct, NK,  NK,  NK,   \
+        /*C7*/  NK,  NK,  NK,  NK,  fn,  NK,  NK,  NK,   \
         /*C8*/  u,   n7,  m,   j,   n6,  y,   h,   n,    \
         /*C9*/  rsf, NK,  lsf, NK,  NK,  NK,  NK,  NK,   \
         /*C10*/ p,   n0,  sls, sem, min, lbr, quo, eql,  \
         /*C11*/ o,   n9,  dot, l,   f9,  f10, f11, f12,  \
         /*C12*/ NK,  NK,  NK,  NK,  NK,  NK,  NK,  NK,   \
-        /*C13*/ NK,  fn,  NK,  NK,  NK,  NK,  NK,  lal,  \
-        /*C14*/ rht, NK,  pi,  ent, bsl, NK,  bkp, NK,   \
-        /*C15*/ rct, NK,  dn,  NK,  NK,  lef, ral, NK,   \
+        /*C13*/ NK,  lal, NK,  NK,  NK,  NK,  NK,  ral,  \
+        /*C14*/ dn,  rht, spc, ent, bsl, NK,  bkp, NK,   \
+        /*C15*/ lef, NK,  NK,  up,  NK,  NK,  NK,  NK,   \
         /*C16*/ NK,  NK,  NK,  NK,  NK,  NK,  NK,  NK,   \
         /*C17*/ NK,  NK,  NK,  NK,  NK,  NK,  NK,  NK    \
     }
