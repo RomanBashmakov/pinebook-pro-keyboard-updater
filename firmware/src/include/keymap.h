@@ -50,17 +50,17 @@
         /*       R0   R1   R2   R3   R4   R5   R6   R7 */ \
         /*C0*/  NK,  NK,  NK,  rct, NK,  lct, NK,  NK,  \
         /*C1*/  q,   n1,  z,   a,   grv, tab, esc, cap,  \
-        /*C2*/  e,   n3,  c,   d,   f2,  f3,  f4,  f1,   \
+        /*C2*/  e,   n3,  c,   d,   f5,  f6,  f7,  f4,   \
         /*C3*/  NK,  NK,  NK,  NK,  NK,  NK,  pi,  NK,   \
         /*C4*/  r,   n4,  v,   f,   n5,  t,   g,   b,    \
-        /*C5*/  w,   n2,  x,   s,   f5,  f6,  f7,  f8,   \
-        /*C6*/  i,   n8,  com, k,   NK,  rbr, NK,  NK,   \
+        /*C5*/  w,   n2,  x,   s,   f8,  f1,  NK,  f3,   \
+        /*C6*/  i,   n8,  com, k,   NK,  rbr, f2,  NK,   \
         /*C7*/  NK,  NK,  NK,  NK,  fn,  NK,  NK,  NK,   \
         /*C8*/  u,   n7,  m,   j,   n6,  y,   h,   n,    \
         /*C9*/  rsf, NK,  lsf, NK,  NK,  NK,  NK,  NK,   \
         /*C10*/ p,   n0,  sls, sem, min, lbr, quo, eql,  \
-        /*C11*/ o,   n9,  dot, l,   f9,  f10, f11, f12,  \
-        /*C12*/ NK,  NK,  NK,  NK,  NK,  NK,  NK,  NK,   \
+        /*C11*/ o,   n9,  dot, l,   f9,  f10, NK,  f12,  \
+        /*C12*/ NK,  NK,  NK,  NK,  NK,  NK,  f11, NK,   \
         /*C13*/ NK,  lal, NK,  NK,  NK,  NK,  NK,  ral,  \
         /*C14*/ up,  dn,  spc, ent, bsl, NK,  bkp, NK,   \
         /*C15*/ lef, rht, NK,  NK,  NK,  NK,  NK,  NK,   \
