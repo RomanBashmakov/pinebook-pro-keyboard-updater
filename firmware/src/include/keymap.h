@@ -50,10 +50,10 @@
         /*       R0   R1   R2   R3   R4   R5   R6   R7 */ \
         /*C0*/  NK,  NK,  NK,  rct, NK,  lct, NK,  NK,  \
         /*C1*/  q,   n1,  z,   a,   grv, tab, esc, cap,  \
-        /*C2*/  e,   n3,  c,   d,   f5,  f6,  f7,  f4,   \
+        /*C2*/  e,   n3,  c,   d,   f2,  f3,  f4,  f1,   \
         /*C3*/  NK,  NK,  NK,  NK,  NK,  NK,  pi,  NK,   \
         /*C4*/  r,   n4,  v,   f,   n5,  t,   g,   b,    \
-        /*C5*/  w,   n2,  x,   s,   f1,  f2,  f3,  f8,   \
+        /*C5*/  w,   n2,  x,   s,   f5,  f6,  f7,  f8,   \
         /*C6*/  i,   n8,  com, k,   NK,  rbr, NK,  NK,   \
         /*C7*/  NK,  NK,  NK,  NK,  fn,  NK,  NK,  NK,   \
         /*C8*/  u,   n7,  m,   j,   n6,  y,   h,   n,    \
