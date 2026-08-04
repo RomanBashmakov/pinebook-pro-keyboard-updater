@@ -32,11 +32,12 @@ __code __at (0x0815) uint16_t keymap[] = KEYMAP_ANSI(
 
 // __code __at (0x0935)
 __code uint16_t fns_special[] = {
-    [0] = REG_FN(KC_F5, 0xA5), // brightness up (index 0 = brightness up in firmware)
-    [1] = REG_FN(KC_F6, 0xA6), // brightness down (index 1 = brightness down in firmware)
-    [2] = REG_FN(KC_F1, KC__MUTE), // mute (index 2 = mute in firmware)
-    [3] = REG_FN(KC_F2, KC__VOLDOWN), // vol down (index 3 = vol down in firmware)
-    [4] = REG_FN(KC_F3, KC__VOLUP)  // vol up (index 4 = vol up in firmware)
+    [0] = REG_FN(KC_F1, KC__MUTE),
+    [1] = REG_FN(KC_F2, KC__VOLDOWN),
+    [2] = REG_FN(KC_F3, KC__VOLUP),
+    [3] = REG_FN(KC_F5, KC_BRIU), // brightness up
+    [4] = REG_FN(KC_F6, KC_BRID), // brightness down
+    [5] = REG_FN(KC_F7, 0xFE) // toggle touchpad
 };
 
 // __code __at (0x0941)
