@@ -62,8 +62,8 @@
         /*C11*/ o,   n9,  dot, l,   f9,  f10, f11, f12,  \
         /*C12*/ NK,  NK,  NK,  NK,  NK,  NK,  NK,  NK,   \
         /*C13*/ NK,  lal, NK,  NK,  NK,  NK,  NK,  ral,  \
-        /*C14*/ dn,  rht, spc, ent, bsl, NK,  bkp, NK,   \
-        /*C15*/ lef, NK,  NK,  up,  NK,  NK,  NK,  NK,   \
+        /*C14*/ up,  dn,  spc, ent, bsl, NK,  bkp, NK,   \
+        /*C15*/ lef, rht, NK,  NK,  NK,  NK,  NK,  NK,   \
         /*C16*/ NK,  NK,  NK,  NK,  NK,  NK,  NK,  NK,   \
         /*C17*/ NK,  NK,  NK,  NK,  NK,  NK,  NK,  NK    \
     }
