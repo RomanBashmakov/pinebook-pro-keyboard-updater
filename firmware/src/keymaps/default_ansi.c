@@ -37,7 +37,7 @@ __code uint16_t fns_special[] = {
     [2] = REG_FN(KC_F1, KC__MUTE),
     [3] = REG_FN(KC_F2, KC__VOLDOWN),
     [4] = REG_FN(KC_F3, KC__VOLUP),
-    [5] = REG_FN(KC_F7, KC_W) // ОТЛАДКА: буква W вместо toggle touchpad
+    [5] = REG_FN(KC_F7, 0xFE) // toggle touchpad (перехватывается патчем в revised.c)
 };
 
 // __code __at (0x0941)
