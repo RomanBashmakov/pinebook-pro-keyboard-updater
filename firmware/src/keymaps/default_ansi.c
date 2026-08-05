@@ -22,7 +22,7 @@
 #define STARTING_ADDR 0x3000
 
 __code __at (0x0815) uint16_t keymap[] = KEYMAP_ANSI(
-    FR(11), FS(0), FS(1), R(F3), FS(2), FS(3), FS(4), FS(5), FR(1), FR(2), FR(3), FR(4), FR(5),
+    FR(11), FS(2), FS(3), FS(4), R(F4), FS(0), FS(1), FS(5), FR(1), FR(2), FR(3), FR(4), FR(5),
     R(GRV),  R(1), R(2), R(3), R(4), R(5), R(6), FK(7), FK(8), FK(9), FK(10), R(MINS), R(EQL), FR(10) , 
     R(TAB),   R(Q), R(W), R(E), R(R), R(T), R(Y), FK(4), FK(5), FK(6), FK(11), R(LBRC), R(RBRC), R(BSLS),
     R(CAPS),   R(A), R(S), R(D), R(F), R(G), R(H), FK(1), FK(2), FK(3), FK(12), R(QUOT), R(ENT),
@@ -32,12 +32,12 @@ __code __at (0x0815) uint16_t keymap[] = KEYMAP_ANSI(
 
 // __code __at (0x0935)
 __code uint16_t fns_special[] = {
-    [0] = REG_FN(KC_F1, 0xA5), // reversed keycodes mapped brightness up in OS
-    [1] = REG_FN(KC_F2, 0xA6), // reversed keycodes mapped brightness dn in OS
-    [2] = REG_FN(KC_F4, KC__MUTE),
-    [3] = REG_FN(KC_F5, KC__VOLDOWN),
-    [4] = REG_FN(KC_F6, KC__VOLUP),
-    [5] = REG_FN(KC_F7, 0xFE) // toggle touchpad
+    [0] = REG_FN(KC_F5, 0xA5), // brightness up (firmware internal code)
+    [1] = REG_FN(KC_F6, 0xA6), // brightness down (firmware internal code)
+    [2] = REG_FN(KC_F1, KC__MUTE),
+    [3] = REG_FN(KC_F2, KC__VOLDOWN),
+    [4] = REG_FN(KC_F3, KC__VOLUP),
+    [5] = REG_FN(KC_F7, 0xFE) // toggle touchpad (перехватывается патчем в revised.c)
 };
 
 // __code __at (0x0941)
@@ -46,7 +46,7 @@ __code uint16_t fns_regular[] = {
     [1] = REG_FN(KC_F8, KC_INS),
     [2] = REG_FN(KC_F9, KC_PSCR),
     [3] = REG_FN(KC_F10, KC_NLCK),
-    [4] = REG_FN(KC_F11, KC_SLCK),
+    [4] = REG_FN(KC_F11, KC_PSCR),
     [5] = REG_FN(KC_F12, KC_PAUS),
     [6] = REG_FN(KC_UP, KC_PGUP),
     [7] = REG_FN(KC_LEFT, KC_HOME),
